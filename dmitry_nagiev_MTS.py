@@ -1,3 +1,1 @@
-adwawdawd
-awdawdawd
-awdawdawd
+print("hello mts gigi za shagi")
