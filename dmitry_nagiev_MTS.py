@@ -1,1 +1,0 @@
-print("hello mts gigi za shagi")
