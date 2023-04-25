@@ -1,18 +1,29 @@
-l= input("введите список чисел\n")
-m,v1,q,v,k=0,0,0,0,0
-for i in l:
-    if i[0]<=l[m]:
-        v1=l[m]
-        v1=int(v1)
-        i=int(i)
-        v=int(v)
-        if v<i:
-            for i in range(10):
-                if (v1 % i == 0):
-                    k = k+1
-                    if (k <= 0):
-                        v=i
-        m=m+1
-        k=0
-        continue
-print(v)
+y=int(input("do u want to input your value?(yes-1, none-0)\n"))
+x=[]
+while y==1:
+    x1=input("input your value\n")
+    x.append(x1)
+    y=int(input("are u wish to input one more value?(yes-1, none-0)\n"))
+    if y==0:
+        break
+    continue
+else:
+    print("you are a joker) he-he")
+    exit()
+q=0 
+k = 0
+x2=[]
+for i1 in x:
+    if q>len(x):
+        break
+    x=x[q]
+    x5=int(x)
+    i1=int(i1)
+    if (x5 % i1 == 0):
+        k = k+1
+    q=q+1
+    x5=x
+    if (k <= 0):
+        x2.append(i1)
+    k=0
+print(x2)
