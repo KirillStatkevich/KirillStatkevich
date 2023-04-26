@@ -13,7 +13,7 @@ else:
 q=0 
 k = 0
 x2=[]
-for i1 in x:
+for i1 in range(len(x)-1): # заменить на x
     if q>len(x):
         break
     x=x[q]
