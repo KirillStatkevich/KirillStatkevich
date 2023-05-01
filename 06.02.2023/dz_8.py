@@ -1,4 +1,4 @@
-x=input("input your volue:\n")
+x=input("input your value:\n")
 m=0
 l=0
 for i in x:
