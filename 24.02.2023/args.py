@@ -32,3 +32,13 @@ my_print(1,2,3,4,5, sep=",", end=".\n")
 def my_print(*args, **kwargs) :#kwargs key wards arguments позволяет ввести любое оличество аргументов по имени
     print(*args, sep=kwargs["sep"], end=kwargs["end"])
 my_print(1,2,3,4,5, sep=",", end=".\n")
+
+def func(*args):
+    for i in args:
+        print(i)
+l=[1,2,3,4,5]
+func(*l)# *в условии помогает итерировать аргументы из списка кортежа и тд
+l=[3,2,5,67,4,3,12]
+# l.sort() #сортирует в удобном 
+# print(l)
+print(sorted(l))#создает обьект (на подобии листа)
