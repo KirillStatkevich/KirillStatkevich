@@ -1,23 +1,23 @@
 # def say_hello():
-#     print("Hello!")# перенесли ниже
+# #     print("Hello!")# перенесли ниже
 
-def do_twice(func):
-    def wrapper():
-        func()
-        func()
-    return wrapper
-# double_say_hello=do_twice(say_hello)
-# double_say_hello()
+# def do_twice(func):
+#     def wrapper():
+#         func()
+#         func()
+#     return wrapper
+# # double_say_hello=do_twice(say_hello)
+# # double_say_hello()
 
-def do_hundred(func):
-    def wrapper():
-        for i in range(100):
-            func()
-    return wrapper
+# def do_hundred(func):
+#     def wrapper():
+#         for i in range(100):
+#             func()
+#     return wrapper
 
 # @do_twice#то же самое что и закоменчено ниже
-def say_hello():
-    print("Hello!")
+# def say_hello():
+#     print("Hello!")
 
 # say_hello=do_twice(say_hello)
 # say_hello=do_hundred(say_hello)

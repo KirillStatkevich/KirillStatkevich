@@ -1,0 +1,2 @@
+Result of your function is:14884
+ working time your's program is: 0.0
