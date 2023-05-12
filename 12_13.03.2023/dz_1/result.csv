@@ -1,8 +1,9 @@
-Title,Directed by,Year,Genre
-Avatar,J.Cameron,2011,fantasy
-Avatar:The way of woter,J.Cameron,2023,fantasy
-Ice Age,Spilberg,2001,cartoon
-Hankook,someone,2007,fantasy
-Ice Age 2, Spilberg, 2005, cartoon
-Ice Age,Spilberg,2002,cartoon3
-John Carter,Andry Stanton,2012,fantasy
+Title;Directed by;Year;Genre
+Avatar;J.Cameron;2011;fantasy
+Avatar:The way of woter;J.Cameron;2023;fantasy
+Ice Age;Spilberg;2001;cartoon
+Hankook;someone;2007;fantasy
+Ice Age 2; Spilberg;2005; cartoon
+Ice Age;Spilberg;2002;cartoon3
+John Carter;Andry Stanton;2012;fantasy
+Top Gun Maveric;Zhirinovskiy;2022;Doc
