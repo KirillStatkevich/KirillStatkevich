@@ -1,7 +1,4 @@
 import csv
-keys = ["Title","Director by","Year","Genre"]
-data = []
-
 
 def additer(data):
     with open("12_13.03.2023/dz_1/result.csv","a", newline="", encoding="utf-8") as f:
@@ -18,6 +15,5 @@ def get_all_films():
 
 def search_func(key):
     with open("12_13.03.2023/dz_1/result.csv","r", encoding="utf-8") as f:
-        while True:    
+        while True:
             return "".join([reader for reader in f if key in reader])
-                

@@ -38,7 +38,7 @@ def main_logic():
             print("Good Luck!")
             break
         else:
-            print("wrong input,try again")
+            print("\n Wrong input,try again")
 
 
 
