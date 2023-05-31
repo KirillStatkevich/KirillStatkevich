@@ -1,0 +1,13 @@
+.conteiner {
+    display: flex;
+    /* flex-direction: column; все изображения растягиваются на весь эран и становятся в столбик */
+    flex-direction:row;
+    justify-content: space-between;
+    /* row просто в строчку */
+    /* flex-end в конец */
+    /* center */
+    /* space-between */
+
+    
+    background-color: rgb(149, 145, 145);
+}

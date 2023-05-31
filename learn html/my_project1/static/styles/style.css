@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+span {
+font-style: italic;
+/* background-color: black; */
+/* background-color: ; отвечает за задний фон текста */
+/* color: aliceblue; */
+/* color: ; ОТВЕЧАЕТ за цвет самого цвета */
+}
+
+/* .bold-text{
+    font-weight: bold;
+} */
+
+/* ol{ задаем нумерацию нашего списка(буквы цифры и тд)
+    list-style: lower-alpha;
+} */
+
+
+/* контент */
+.list-conteiner{
+    display: inline-block;
+    border-style:solid;
+    /* обвели края div черной рамкой */
+    border-width: 0.5px;
+    padding-right: 20px;
+}
+.list-conteiner>p{
+    text-align: center;
+    font-weight: bold;
+}
+img{
+    float:right ;
+}
+.img-conteiner{
+    float: right;
+    padding: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    margin-left: 10px;
+}
+.img-conteiner>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-html{
+    max-width: 70px;
+}
+
+/* верхняя навигационная панель */
+.navi-conteiner{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.navi-conteiner>nav>ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* сделали чтоб строчка поиска была меньше остальных кнопок */
+    margin:0px;
+    padding: 0px;
+}
+.navi-conteiner>nav>ul>li>a{
+    display: block;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+@media(max-width:900px){
+    .navi-conteiner{
+        flex-direction: column;}  
+}
+
+.text-page{
+    padding-left: 15px;
+}
+
+
+.page{
+    display:flex;
+    justify-content: center;
+}
+.header{
+    width: 14%;
+    background-color: aquamarine;
+}
+.section{
+    width: 82%;
+}
+.header>ol{
+    list-style: none;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    margin: 10px;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.header>div{
+    width: 100%;
+}
+.header>div>img{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

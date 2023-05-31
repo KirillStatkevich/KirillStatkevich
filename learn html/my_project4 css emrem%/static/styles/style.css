@@ -1,0 +1,22 @@
+html{
+    font-size: 30 px;}
+p{
+    font-size: 2em;}
+div{
+    width: 300px;
+    height: 300px;
+    margin: 4rem;
+    padding: 0.5rem;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+#grey{
+    background-color: gray;
+}

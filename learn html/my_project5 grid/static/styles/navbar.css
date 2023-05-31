@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    background-color: rgb(28, 30, 30);
+}
+.nav-list{
+    display: flex;
+}
+
+.nav-list>a{
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+
+}
+.nav-list a:hover{
+    /* hover позволяет изменить css стиь элемента когда на него наведен курсор */
+    background-color: rgb(136, 184, 184);
+    /* подсвечивает кнопки классно смотрится */
+}
+.nav-btn{
+    display: none;
+}
+@media(max-width:1000px){
+    .nav-btn{
+    font-size: 2em;
+    padding-inline:10px;
+    padding-bottom: 3px;
+    border: none;
+    background-color: rgb(28, 30, 30);
+    color: white;
+    display: block;
+    cursor: pointer;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-btn:hover{
+        background-color:rgb(136, 184, 184) ;
+    }
+    .drop:hover .nav-list{
+        /* при наведении на кнопку(hоver) срабатывает вывод списка  */
+        display: block;
+        position: absolute;
+        right: 1px;
+        /* для того чтоб кореектно отображалось кнопка справа 
+        сделали отступ справа в 1 пиксель */
+        background-color: rgb(28, 30, 30);
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+}

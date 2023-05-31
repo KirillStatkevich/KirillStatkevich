@@ -1,0 +1,38 @@
+/* *{
+    margin: 0px;
+    /* указываем для всего документа сразу 0 отступ чтоб не было никаких */
+.conteiner {
+    text-align: center;
+    display:inline-block ;
+    /* c inlene высота и ширь не работает, занимает четко по контенту */
+    /* block занимает всю ширину*/
+    /* inline-block промежуточное состояние где можно высоту и ширину указать */
+    /* width: 500px;
+    height: 100px; */
+    background-color: rgb(149, 145, 145);
+    /* text-align: center; указываем относительность текста */
+    
+    /*width: 500px; создает отступ c левого края  */
+    margin: 20px;
+    margin-top: 50px;
+}
+.main{
+    text-align: center;
+}
+.conteiner>img{
+    width: 300px;
+    /* указываем максимальную ширину артинки(динамически свернется) */
+}
+p{
+    background-color: rgb(71, 219, 71);
+    font-size: 24px;
+    /* font-sizw твечает за размер шрифта */
+    /* margin: ; отвечает за отступ между строками есть right left bottom top */
+    /*margin: 30px; отступ отовсюду в 30 пикселей, 0-нет оступов */
+    /*padding: 30px; увеличивает строку и делает ее 30 пикселей */
+}
+/* p{
+    display:inline ;
+    /* приводим все теги P к строчнуму варианту(как span) */
+
+

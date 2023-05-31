@@ -1,0 +1,74 @@
+.main_conteiner{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    /* создаем таблицу где указываем количество столюбцов */
+    grid-template-rows:repeat(1);
+    /* указываем в созданной таблице высоту строк */
+    background-color: blue;
+}
+.left_bar{
+    grid-column: 1/3;
+}
+.conteiner{
+    grid-column: 3/11;
+
+}
+.right_bar{
+    grid-column: 11/13;
+
+}
+.left_bar p,
+.right_bar p{
+    margin: 1em;
+    padding:1em;
+    border-style: solid;
+    border-width: 0.5px;
+    color: aquamarine;
+    border-color: antiquewhite;
+}
+
+
+
+
+
+@media(max-width:900px){
+    .main_conteiner{
+        grid-template-rows: repeat(3);
+    }
+    .left_bar{
+        grid-column: 1/13;
+        grid-row: 1/2;
+}
+    .conteiner{
+        grid-column: 1/11;
+        grid-row: 2/3;
+
+}
+    .right_bar{
+        grid-column: 1/13;
+        grid-row: 3/4;
+
+}
+}
+@media(max-width:600px){
+    .main_conteiner{
+        grid-template-rows: repeat(3);
+    }
+    .left_bar{
+        grid-column: 1/13;
+        grid-row: 1/2;
+}
+    .conteiner{
+        grid-column: 1/11;
+        grid-row: 2/3;
+
+}
+    .right_bar{
+        grid-column: 1/13;
+        grid-row: 3/4;
+
+}
+}
+/* .card{
+    margin-inline:  0;
+} */

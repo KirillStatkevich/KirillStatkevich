@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* создаем таблицу где указываем количество столюбцов */
+    grid-template-rows: repeat(4) ;
+    /* указываем в созданной таблице высоту строк */
+}
+.card{
+    margin:  1.5em;
+}
+
+.card>a>img{
+    width: 100%;
+}
+
+.card>.info{
+    text-align: center;
+}
+
+@media(max-width:1000px){
+    .conteiner{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5);
+    }
+}
+@media(max-width:600px){
+    .conteiner{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9);
+        .card{
+            margin-inline:  0;
+}
+    }
+}
